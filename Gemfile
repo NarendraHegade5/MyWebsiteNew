@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
+    gem 'sassc', '~> 2.1.0'
+    gem 'nokogiri', '1.11.7'
     gem 'jekyll'
     gem 'jekyll-email-protect'
     gem 'jekyll-github-metadata'
